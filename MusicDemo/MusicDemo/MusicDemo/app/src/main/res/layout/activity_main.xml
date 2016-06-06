@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/findsong"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="findSongs"
+        android:text="FindSongs"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/findvideo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="findVideos"
+        android:text="FindVideos"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/findapk"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="findApk"
+        android:text="FindApk"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

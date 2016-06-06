@@ -7,5 +7,5 @@
     <dimen name="listend_margin_left">320dp</dimen>
     <dimen name="listdata_margin_left">250dp</dimen>
     <dimen name="listname_margin_left">56dp</dimen>
-    <dimen name="listname_margin_top">10dp</dimen>
+    <dimen name="listname_margin_top">20dp</dimen>
 </resources>
