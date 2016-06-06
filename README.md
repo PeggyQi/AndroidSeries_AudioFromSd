@@ -6,4 +6,4 @@
 
 ![demo](https://raw.githubusercontent.com/PeggyQi/AndroidSeries_AudioFromSd/master/MusicDemo/MusicDemo/screenshot1.png)
 
-![demo](https://raw.githubusercontent.com/PeggyQi/AndroidSeries_AudioFromSd/master/MusicDemo/MusicDemo/screenshot2.png)
+![demo](https://raw.githubusercontent.com/PeggyQi/AndroidSeries_AudioFromSd/master/MusicDemo/MusicDemo/MusicDemo/screenshot2.png)
