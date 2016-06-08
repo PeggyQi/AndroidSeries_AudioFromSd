@@ -65,7 +65,7 @@ public class ApkAdapter extends BaseAdapter {
         packageInfo = packageInfos.get(position);
 
         applicationInfo=packageInfo.applicationInfo;
-
+        Log.e("ApkApapter","packagename"+packageInfo.packageName);
         Drawable drawable=context.getPackageManager().getApplicationIcon(applicationInfo);
         viewHolder.apk_icon.setImageDrawable(drawable);
         String dir=applicationInfo.publicSourceDir;

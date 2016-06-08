@@ -10,52 +10,47 @@
         android:descendantFocusability="blocksDescendants"
         android:orientation="vertical" >
        <ImageView
-           android:id="@+id/music_album"
+           android:id="@+id/folder_icon"
            style="@style/listIconSize"
            android:layout_marginLeft="@dimen/listicon_margin_left"
            android:layout_centerVertical="true"
-           android:src="@drawable/musicicon"/>
-        <TextView
-            android:text="time"
-            android:id="@+id/music_duration"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/listdata_margin_left"
-            android:layout_alignBottom="@+id/music_title"
-            android:textColor="#afabab"
-            />
+           />
+
         <TextView
             android:text="name"
-            android:id="@+id/music_title"
+            android:id="@+id/folder_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/listname_margin_left"
-            android:layout_marginTop="@dimen/listname_margin_top"
+            android:layout_marginTop="15dp"
             android:textColor="#000000"
-            android:maxEms="6"
+            android:textSize="17sp"
+            android:maxEms="8"
             android:singleLine="true"
             android:ellipsize="end"
             />
         <TextView
-            android:text="singer"
-            android:id="@+id/music_artist"
+
+            android:id="@+id/folder_num"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/music_title"
-            android:layout_below="@id/music_title"
+            android:layout_toRightOf="@id/folder_title"
+            android:layout_marginTop="19dp"
             android:textColor="#afabab"
+
             />
+
         <TextView
             android:text="size"
-            android:id="@+id/music_size"
+            android:id="@+id/folder_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/music_duration"
-            android:layout_below="@id/music_duration"
+            android:layout_marginLeft="@dimen/listdata_margin_left"
+            android:layout_alignBottom="@id/folder_num"
             android:textColor="#afabab"
             />
         <CheckBox
-            android:id="@+id/music_checkbox"
+            android:id="@+id/video_checkbox"
             style="@style/list_checkbox"
             android:layout_marginLeft="@dimen/listend_margin_left"
             android:layout_centerVertical="true"
@@ -64,9 +59,9 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/music_title"
-            android:layout_marginTop="70dp"
-            android:src="@drawable/line"/>
+            android:layout_alignLeft="@id/folder_title"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/divider"/>
 
     </RelativeLayout>
 </RelativeLayout>

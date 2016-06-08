@@ -41,4 +41,11 @@ public class MainActivity extends ActionBarActivity {
         Intent i=new Intent(MainActivity.this,ApplicationActivity.class);
         startActivity(i);
     }
+
+    public void findFolder(View v)
+    {
+        Log.i("MainActivity","findFolder");
+        Intent i=new Intent(MainActivity.this,FolderActivity.class);
+        startActivity(i);
+    }
 }

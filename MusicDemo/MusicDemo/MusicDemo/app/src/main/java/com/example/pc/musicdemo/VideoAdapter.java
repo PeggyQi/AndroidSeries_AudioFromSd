@@ -73,6 +73,7 @@ public class VideoAdapter extends BaseAdapter {
             viewHolder = (ViewHolder) convertView.getTag();
         }
         videoInfo = videoInfos.get(position);
+        Log.e("VideoAdapter","videoInfo getUrl "+videoInfo.getUrl());
         viewHolder.video_album.setImageBitmap(getVideoThumbnail(videoInfo.getUrl(), 75, 70,
                 MediaStore.Images.Thumbnails.MICRO_KIND));
 
